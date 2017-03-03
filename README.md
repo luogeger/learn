@@ -1,3 +1,2 @@
 # learn
-no
-edit in local
+## 删除了$文件和index.html
