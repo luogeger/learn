@@ -147,6 +147,40 @@
      + 冲突是不可避免的。
      + 当在新功能完成后合并前，修改并提交了主分支对应的文件，合并时两个分支中的文件有冲突。
      + 手动修改文件，然后提交
+
+   - 查看冲突未处理的文件列表
+   ```markdown
+        git ls-files -u
+   ```
+
+   - 如果我对某文件进行了修改，但我不想要push到远程仓库，同时我又想获取最新的修改记录
+   ```markdown
+        git stash save
+        git pull --rebase
+   ```
+
+   - 如果暂存内容现在不想在当前分支恢复了，而是想单独起一个分支
+   ```markdown
+        git stash branch [newBranchName]
+   ```
+
+   - 想要查看当前工作区与暂存状态内容区别
+   ```markdown
+        git stash show -p stash{0}
+   ```
+
+   - 本地代码已经commit后，解决与远程代码冲突问题
+   ```markdown
+        # 获取远端库最新信息 【分支名称】
+        git fetch origin [master]
+
+        # 做比较
+        git diff [本地分支名] origin/[远程分支名]
+
+        # 拉取最新代码，同时会让你merge冲突
+        git pull
+   ```
+
 ## 5.Git原理以及常用步骤
    -  Git内部结构
        + 为了更好的学习Git，我们们必须了解Git管理我们文件的3种状态，分别是已`提交（committed）、已修改（modified）和已暂存（staged）`，由此引入 Git 项目的三个工作区域的概念：Git 仓库、工作目录以及暂存区域。
@@ -208,3 +242,29 @@
       + git remote rm“主机名称” 命令用于删除远程主机。
       + git remote 可以查看已添加的远程主机
       + git remote show “主机名称”可以查看远程主机的信息
+
+## 7.GitLab网上使用
+-  两种登录方式
+	+ 通过Http登录，需要用户名和密码
+	+ 通过SSH登录，不需要用户名和密码只需要RSA密钥就行，RSA通过在git bash中输入 ssh-keygen -t rsa生成，
+		生成好的密钥通过生成的路径找到对应的id_rsa.pub文件，将其内容添加到gitlab中并保存ssh密钥，以后的push 或者pull操作都不会需要用户名和 密码。
+- 克隆仓库
+	+ git clone 你的地址（这里可以通过https地址或者通过SSH方式获取你的网上仓库）
+- 获取仓库内容
+	+ git pull 地址/origin master  可以通过https地址获取仓库数据，但是这样做太麻烦了，使用origin相当于替换了之前的地址用法都是一样的。
+		-  其实这样使用包含了两个操作
+		-  git fetch origin (获取远端的分支)
+		-  git merge origin/master （合并远端分支）
+- 远端分支管理
+	+ 创建远端分支
+		- 1.在本地创建好分支以后，本地 push 该分支即可
+		- 2.在网页上创建分支好以后，通过git fetch获取该分支
+	+ 删除远端分支
+	 - git push origin --delete 需要删除的分支，那么其他人如果需要更新分支 需要 git fetch -p
+- git 补充知识
+  + 保存当前的工作现场
+		  - 使用git stash保存当前的工作现场，那么就可以切换到其他分支进行工作，或者在当前分支上完成其他紧急的工作，比如修订一个bug测试提交。
+		  - 1 在通过git add 提交完代码到缓存区以后 输入git stash 保存现场，完成以后通过创建其他分支或者跳转其他分支解决对应的工作
+		  - 2 解决完对应的工作后跳转到之前的工作分支中在通过 git stash pop 还原现场
+	+ 查看隐藏分支
+	 git branch -a
