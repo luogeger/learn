@@ -29,13 +29,11 @@
 - 前端代码HTML的新标签，``nav/footer``等，在IE中无法正常显示，使用[html5shiv](https://github.com/aFarkas/html5shiv)
 
 ### 5. max-width
-- ``max-width: 100;``一般来显示图片的宽度最大为父容器的宽度。有时候却不奏效。
+- ``max-width: 100%;``一般来显示图片的宽度最大为父容器的宽度。有时候却不奏效。
 - IE解析max-width所遵循的规则：严格要求**直接父元素**的宽度是固定的。
-
-(1)td中的max-width
+- (1)td中的max-width
 针对td中的img元素设置max-width: 100%; 在IE和FF中不奏效，需要给table设置``table-layout： fixed；`` 该属性的具体解释[W3School](http://www.w3school.com.cn/cssref/pr_tab_table-layout.asp)
-
-(2)嵌套标签中的max-width
+- (2)嵌套标签中的max-width
 ```HTML
 <div class="box">
     <a href="#" class="box-link">
