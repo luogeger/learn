@@ -42,6 +42,9 @@
     </fieldset>
 </form>
 ```
+
+- 语法不高亮
+
 ```javascript
 function changeNum(obj) {
     document.querySelector('output').innerText = obj.value;
