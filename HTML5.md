@@ -19,7 +19,7 @@
 ### form标签的用法
 - **datalist标签**：id必须和input标签的list属性值一样。input获取焦点以后才会有下拉框的效果。--类似select
 - **keygen标签**：基本不用
-- **output标签**：配合``type='range'``使用。
+- **output标签**：配合``type='range'``使用。它的作用类似于span 本身没有任何功能,没有任何默认的外观,只是语义性强,可以用来放结果如果要使用一般是配合用来显示结果
 ```HTML
 <form>
     <fieldset>
@@ -35,15 +35,12 @@
         <!-- 加密了解即可,实际开发中基本不用-->
         <keygen keytype="rsa"></keygen>
             <br>
-        <!-- output 输出它的作用类似于span 本身没有任何功能,没有任何默认的外观,只是语义性强,可以用来放结果如果要使用一般是配合用来显示结果-->
         <output name=""></output>
             <br>
         <input type="range" oninput='changeNum(this)'>
     </fieldset>
 </form>
 ```
-
-- 语法不高亮
 
 ```javascript
 function changeNum(obj) {
@@ -254,12 +251,12 @@ document.querySelector('input').oninput = function (e) {
 - ``data-path='img/wbq.jpg' ``: ``alert(this.dataset['path'])``
 ```HTML
 <div class="imgBox"></div>
-	<div class='infoBox'></div>
-	<div class='btnBox'>
-		<input type="button" value='王宝强' data-path='img/wbq.jpg' data-info='宝宝不哭,站起来'>
-		<input type="button" value='宋仲基' data-path='img/szj.jpg' data-info='专业撩妹,大众老公'>
-		<input type="button" value='贾玲' data-path='img/jl.jpg' data-info='贾玲，原名贾裕玲。1982年4月29日出生于湖北襄阳，毕业于中央戏剧学院。'>
-	</div>
+<div class='infoBox'></div>
+<div class='btnBox'>
+    <input type="button" value='王宝强' data-path='img/wbq.jpg' data-info='宝宝不哭,站起来'>
+    <input type="button" value='宋仲基' data-path='img/szj.jpg' data-info='专业撩妹,大众老公'>
+    <input type="button" value='贾玲' data-path='img/jl.jpg' data-info='贾玲，原名贾裕玲。'>
+</div>
 ```
 ```javascript
 var btnLists = document.querySelectorAll('input');
@@ -315,4 +312,120 @@ for (var i = 0; i < inputLists.length; i++) {
     亲爱的用户,您的浏览器版本过低,可以点击下载<a href="#">360急速全家桶</a>
 </audio>
 ```
+
+## Second
+### 选择器
+- 兄弟选择器: 以第一个选择器作为开始,往后的所有满足 选择器2的 元素
+```css
+.secondH2~p{
+    background-color: orange;
+}
+.secondH2~.lastP{
+    font-size:30px;
+}
+```
+
+- 属性选择器
+```css
+/*所有拥有skill属性的值不考虑*/
+li[skill]{
+    background-color: red;
+}
+/*属性=某个具体值*/
+li[skill=fire]{
+    background-color: yellow;
+}
+/*属性以 某个值 开头*/
+li[skill^=sell]{
+    background-color: blue;
+}
+/*属性以 某个值结尾*/
+li[friend$=s]{
+    background-color: green;
+}
+/*属性中 包含了 某个值 */
+li[skill*=it]{
+    background-color: deepskyblue;
+}
+/*|= :属性以 - 进行分割, 第一个值为 dog的 */
+li[people|=dog]{
+    background-color: purple;
+}
+/*属性选择器中括号 [属性名 符号 属性值]*/
+```
+- 伪类选择器
+    - li:fist-child{}
+    - li:last-child{}
+    - li:nth-child(7){}
+    - li:nth-child(2n-1){}
+    - li:nth-child(odd){}
+    - li:nth-child(even){}
+    - li:not([ price='18' ]){} : 找到没有price=18的所有标签。
+    - h2:target{} : 锚链接
+```html
+        <ul>
+            <li><a href="#title1">去往标题1</a></li>
+            <li><a href="#title2">去往标题2</a></li>
+            <li><a href="#title3">去往标题3</a></li>
+            <li><a href="#title4">去往标题4</a></li>
+        </ul>
+        <h2 id="title1">标题1</h2>
+        <p>lorem</p>
+        <h2 id="title2">标题2</h2>
+        <p>lorem</p>
+        <h2 id="title3">标题3</h2>
+        <p>lorem</p>
+        <h2 id="title4">标题4</h2>
+        <p>lorem</p>
+```
+```css
+        h2:target {
+            background-color: skyblue;
+            font-size: 100px;
+        }
+```
+- 伪元素选择器
+    - 可以为双标签添加子元素
+    - **必须**添加``content``属性，可以是具体内容，也可以为空
+    - 默认是行内元素
+    ```css
+    div::after{
+        content:'❤';
+        position: absolute;
+        background-color: skyblue;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        right:-50px;
+        top:25px;
+    }
+    /*伪元素hover事件语法*/
+    div:hover::after{
+        top:0px;
+    }
+    ```
+> 首字母：``p::first-letter{}``
+
+> 首行： ``p::first-line{}``
+
+> 选中的文字：``p::selection{}``
+
+> input标签里的placeholder: ``input::-webkit-input-placeholder{}`` 不同的浏览器对应不同的前缀
+
+### 边框圆角
+
+### 边框阴影
+
+### 文字阴影
+    文字阴影3D
+
+### 颜色设置、透明度
+
+### 盒子模型
+- **box-sizing:border-box;**  盒子的大小
+- **box-sizing:content-box;**  内容的大小
+
+## Third
+
 
