@@ -3,9 +3,10 @@
 > 网站的划分一般为二：前端和后台。
 - 可以把后台理解为用来实现网站功能的。比如：注册，发表评论。
 - 前端其实应该是属于功能的表现。并且影响用户体验的绝大部分来自前端页面。
-```css
-一般来说，web前端指网站业务逻辑之前的部分，浏览器加载、网站视图模型、图片服务、CSN服务。主要优化方案：浏览器访问、反向代理才、CDN等。
-```
+> 一般来说，web前端指网站业务逻辑之前的部分，浏览器加载、网站视图模型、图片服务、CSN服务。主要优化方案：浏览器访问、反向代理才、CDN等。
+
+- [Google Yahoo](http://pagespeed.webkaka.com/docs/Server.html)
+- [一次完整的http请求都干了些什么事](http://www.jianshu.com/p/c1d6a294d3c0?from=jiantop.com)
 
 ## HTML
 - 缩减资源的大小
@@ -47,8 +48,6 @@
 - 启用Keep-Alive
 - 删除静态资源查询字符串
 - 最小化请求体积
-
-- [Google Yahoo](http://pagespeed.webkaka.com/docs/Server.html)
 
 > 浏览器的访问优化
 - (1) 减少http请求，合理设置http缓存
