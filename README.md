@@ -1,8 +1,19 @@
 # Learn
 
-### 测试硬盘读写速度
-> 管理员身份打开命令行``winsat disk -drive c``
 
+- 1.测试硬盘读写速度
+	- 管理员身份打开命令行``winsat disk -drive c``
+
+- 2.删除嵌套很深的文件夹
+	- 假如需要删除的文件夹是nodejs\node_modules\node_modules...
+	- 1.在nodejs中同级目录下创建一个临时文件夹 t
+	- 2.打开命令行窗口，进入nodejs目录下
+		输入命令：C:\Windows\System32\Robocopy.exe /MIR t node_module
+
+- 3.cnpm 替换 npm,以后用到npm的地方就用cnpm
+    - ``$ npm install -g cnpm --registry=https://registry.npm.taobao.org``
+
+		
 ```html
 <thead>
 	<tr>
