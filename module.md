@@ -1,5 +1,5 @@
 # CommonJS、AMD、CMD
-> 其实，js模块化需要考虑的第一个问题就是，为什么要模块化，或者，模块化为什么很重要。
+> 其实，js模块化需要考虑的第一个问题就是，为什么要模块化，或者说，模块化为什么很重要。
 
 |    | service|browser|
 |:--:|   :--: |  :--: |
@@ -47,14 +47,13 @@
     - 1.加载的时候，浏览器停止网页渲染，文件越多，失去响应的时间就会越长。
     - 2.js文件之间存在依赖关系，因此，必须严格保证加载顺序。
     - 3.如果这是别人写的代码，而且注释不详，你难道就没有怼他的想法。（妹纸的话，另当别论）.
-
 ```html
-   <script src="1.js"></script>
-　　<script src="2.js"></script>
-　　<script src="3.js"></script>
-　　<script src="4.js"></script>
-　　<script src="5.js"></script>
-　　<script src="6.js"></script>
+<script src="1.js"></script>
+<script src="2.js"></script>
+<script src="3.js"></script>
+<script src="4.js"></script>
+<script src="5.js"></script>
+<script src="6.js"></script>
 ```
 - RequireJS的诞生，就是为了解决这2个问题：
     - 1.实现js文件的异步加载，避免网页失去响应。
