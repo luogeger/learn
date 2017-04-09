@@ -10,10 +10,7 @@
 	- 2.打开命令行窗口，进入nodejs目录下
 		输入命令：C:\Windows\System32\Robocopy.exe /MIR t node_module
 
-- 3.cnpm 替换 npm,以后用到npm的地方就用cnpm
-    - ``$ npm install -g cnpm --registry=https://registry.npm.taobao.org``
-
-#Node
+## Node
 
 - 什么是Node
   + Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。[官网](https://www.nodojs.org)
@@ -35,9 +32,12 @@
   + nvm install 4.6.0 下载名为4.6.0的版本
   + nvm use 4.6.0 切换4.6.0版本
   
+  
 - 常用nrm 命令
-  + nrm ls查看不同的下载源地址
-  + nrm use cnpm 切换到cnpm下载源
+  - nrm ls查看不同的下载源地址
+  - nrm use cnpm 切换到cnpm下载源
+  - cnpm 替换 npm,以后用到npm的地方就用cnpm -> 执行下面命令：
+    - ``$ npm install -g cnpm --registry=https://registry.npm.taobao.org``
   
 - 常用的npm命令
   + npm init 初始化一个	package.json  文件，如果加上-y就不需要在敲回车了
@@ -45,6 +45,7 @@
   + npm install jquery --save-dev 本地安装jquery并记录到package.json中
   + npm uninstall 包名 删除包 如果是全局安装就加上-g
 	
+## Typora
 ```html
 <thead>
 	<tr>
