@@ -13,7 +13,38 @@
 - 3.cnpm 替换 npm,以后用到npm的地方就用cnpm
     - ``$ npm install -g cnpm --registry=https://registry.npm.taobao.org``
 
-		
+#Node
+
+- 什么是Node
+  + Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。[官网](https://www.nodojs.org)
+
+- node 只解析ES,像aler()之类的就不能使用了 
+  + 加上谷歌V8对js的解析速度大大提高
+  + 提供了一些系统级API,比如对文件的操作
+  + 其实就是一个js运行环境
+  
+- 安装Node
+  + 不要安装在中文路径
+  + nvm Node Version Manager（版本管理）
+  + nrm Node Registry Manager（路径管理）
+  + npm Node Package Manager （依赖包管理）
+    www.npmjs.com npm下载地址
+	
+- 常用nvm命令
+  + nvm ls 查看node下载的版本
+  + nvm install 4.6.0 下载名为4.6.0的版本
+  + nvm use 4.6.0 切换4.6.0版本
+  
+- 常用nrm 命令
+  + nrm ls查看不同的下载源地址
+  + nrm use cnpm 切换到cnpm下载源
+  
+- 常用的npm命令
+  + npm init 初始化一个	package.json  文件，如果加上-y就不需要在敲回车了
+  + npm install -g bower 全局安装bower
+  + npm install jquery --save-dev 本地安装jquery并记录到package.json中
+  + npm uninstall 包名 删除包 如果是全局安装就加上-g
+	
 ```html
 <thead>
 	<tr>
