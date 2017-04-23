@@ -8,7 +8,7 @@ And this is the colsest I've ever gotten to a collage graduation.
 
 Today I want to you three stories from my life.
 
-That¡®s it No big deal just three stories.
+That's it No big deal just three stories.
 
 The first story is about commecting the dots.
 
