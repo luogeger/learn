@@ -1,85 +1,165 @@
 I am honored to be with you today at your commencement.
+
 from one of the finest universities in the word.
+
 Truth be told I never graduated from collage.
+
 And this is the colsest I've ever gotten to a collage graduation.
+
 Today I want to you three stories from my life.
+
 That¡®s it No big deal just three stories.
+
 The first story is about commecting the dots.
+
 I dropped out of Read Collage after the first 6 months.
+
 But then stayed around as a drap-in.
+
 For another 18 months also before I realy quit.
+
 So why did I dropout.
+
 It started before was born.
+
 My biological mother was young unwed collage graduate student.
+
 And she decided to put me up for adoption.
+
 She felt very strongly that I should be adopted by collage graduates
+
 So everything was all set for me.
+
 To be adopted at birth by a lawyer and his wife.
+
 Except that when I popped out.
+
 They decided at the last minute that they really wanted agirl.
+
 So my parents who were on a waiting list.
+
 Got a call in the middle of the night.
+
 Asking we got an unexpected baby boy.
+
 Do you want him. They said of course.
+
 My biological monther found out later.
+
 That my monther had never graduated from collage.
+
 And my father had never graduated from high school.
+
 She refused to sign the find adoption papers.
+
 She only relented afew months later.
+
 When my parents promised that I would go to collage.
+
 This was a start in my life.
+
 And 17 years later I did go to collage.
+
 But I naiverly chose that was almost as expensive as Stanlord.
+
 And all of my working-class parents¡®savings Were being spent on my collage tuition.
+
 After six months I couldn¡®t see the value in it.
+
 I had no idea what I wanted to do with my life.
+
 And no idea how collage was going to help me figure it out.
+
 And here I was spending all of the money my parents had saved their entire life.
+
 So I decided to drop out and trust that it would all work out OK.
+
 It was pretty scary at the time but looking back it was one of the best decisions I ever made.
+
 The minute I dropped out. I could stop taking the required classes that didn¡®t interest me.
+
 And begin dropping in on the ones that looked far more interesting.
+
 It wasn¡®t all romantic I didn¡®t have a dorm room.
+
 So I slept on the floor in friends¡®rooms.
+
 I returned coke bottles for the 5 cent deposits to buy food with and I would walk the 7 miles across town every Sunday night.
+
 To get one good meal a week at the Have Krishna temple. I loved it.
+
 And much of what I stumbled into by following my curiosity and intuition.
+
 Turned out to be priceless later on.
+
 Let me give you one example.
+
 Read Collage at that time offered. Perhaps the best calligraphy in struction in the country.
+
 Throughout the compus every poster.
+
 Every label on every drawer was beautifully hand calligrapher.
+
 Because I had dropped out and didn¡®t have to take the normal classes.
+
 I decided to take a calligraphy class to learn how to do this.
+
 I learned about serif and san-serif typefaces.
+
 About varying the amount of space between different letter combinations.
 --
 About whatmakes great typography great
+
 It was beartiful,historical
+
 artistically subtle in a way that science can't capture
+
 And I found it fascinating
+
 None of this had even a hope
+
 Of any practical application in my life
+
 But ten years later
+
 When we were designing the first Macintosh computer
+
 It all came back to me
+
 And we designed it all into the Mac
+
 It was the first computer with beautiful typography
+
 If I had never dropped in on that single course in collage
+
 The Mac would have never had multiple typefaces or proportionally spaced fonts
+
 And since Windows just copied the Mac
+
 It's likely that no personal computer would have them
+
 If hadnever dropped out
+
 I would have never dropped in on this calligraphy class and personal computers might not have.
+
 The wonderful typography that they do.
+
 Of course it was impossible to connect the dots looking forward when I was in collage
+
 But it was very very clear looking backwards ten years later.
+
 Again you can't connect the dots looking forward you can only connect them looking backwards
+
 So you have to trust that.
+
 The dots will somehow connect in your future.
+
 You have to trust in something.
+
 Your gut,destiny,life,karma whatever.
+
 Because believing that these dots would connect down the road will give you the confidence to follow your heart.
+
 even when it leads you off the well-worn path and that will make all the difference.
 --
 My second story is about love and loss.
