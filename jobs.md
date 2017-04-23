@@ -107,7 +107,7 @@ I decided to take a calligraphy class to learn how to do this.
 I learned about serif and san-serif typefaces.
 
 About varying the amount of space between different letter combinations.
---
+
 About whatmakes great typography great
 
 It was beartiful,historical
@@ -161,7 +161,10 @@ Your gut,destiny,life,karma whatever.
 Because believing that these dots would connect down the road will give you the confidence to follow your heart.
 
 even when it leads you off the well-worn path and that will make all the difference.
---
+
+> 
+
+
 My second story is about love and loss.
 I was lucky.
 I found what I loved to do early in life
