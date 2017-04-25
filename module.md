@@ -15,7 +15,7 @@
 
 - 但是，这样做需要一个前提，就是代码规范，不然大家各自使用自己的规范，就会乱套。
 
-- CommonJS就是为js的表现指定的规范,因为js没有模块的功能，
+- CommonJS就是为js的表现指定的规范。
     - 在CommonJS中，有一个全局性的方法``require()``,用于加载模块。假定要加载一个数学模块
     ```javascript
         var math = require('math');
