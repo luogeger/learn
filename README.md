@@ -9,6 +9,10 @@
 	- 1.在nodejs中同级目录下创建一个临时文件夹 t
 	- 2.打开命令行窗口，进入nodejs目录下
 		输入命令：C:\Windows\System32\Robocopy.exe /MIR t node_module
+		
+- 3.webstorm背景色：浅蓝EDFCED，浅黄F5F5D5
+
+[Me](imgs/mmexport1451125082410.jpg)
 
 ## Node
 
