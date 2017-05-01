@@ -62,9 +62,9 @@ And 17 years later I did go to collage.
 
 But I naiverly chose that was almost as expensive as Stanlord.
 
-And all of my working-class parents¡®savings Were being spent on my collage tuition.
+And all of my working-class parents'savings Were being spent on my collage tuition.
 
-After six months I couldn¡®t see the value in it.
+After six months I couldn't see the value in it.
 
 I had no idea what I wanted to do with my life.
 
@@ -76,13 +76,13 @@ So I decided to drop out and trust that it would all work out OK.
 
 It was pretty scary at the time but looking back it was one of the best decisions I ever made.
 
-The minute I dropped out. I could stop taking the required classes that didn¡®t interest me.
+The minute I dropped out. I could stop taking the required classes that didn't interest me.
 
 And begin dropping in on the ones that looked far more interesting.
 
-It wasn¡®t all romantic I didn¡®t have a dorm room.
+It wasn't all romantic I didn't have a dorm room.
 
-So I slept on the floor in friends¡®rooms.
+So I slept on the floor in friends'rooms.
 
 I returned coke bottles for the 5 cent deposits to buy food with and I would walk the 7 miles across town every Sunday night.
 
@@ -100,7 +100,7 @@ Throughout the compus every poster.
 
 Every label on every drawer was beautifully hand calligrapher.
 
-Because I had dropped out and didn¡®t have to take the normal classes.
+Because I had dropped out and didn't have to take the normal classes.
 
 I decided to take a calligraphy class to learn how to do this.
 
@@ -308,7 +308,7 @@ You are already naked There is no reason not to follow your heart
 
 About a year ago I was diagnosed with cancer
 
-I had a scan at 7£º30 in the morning
+I had a scan at 7'30 in the morning
 
 And it clearly showed a tumor on my pancreas
 
@@ -334,7 +334,7 @@ So that it will be as easy as possible for your family
 
 It means to say your goodbyes
 
-I lived with that diagnosis all day
+I lived with that diagnosis all days
 
 Later that evening I had a biopay
 
