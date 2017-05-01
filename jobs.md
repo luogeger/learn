@@ -1,22 +1,18 @@
-I am honored to be with you today at your commencement.
+I am honored to be with you today at your commencement from one of the finest universities in the word.
 
-from one of the finest universities in the word.
-
-Truth be told I never graduated from collage.
+Truth be told,I never graduated from collage.
 
 And this is the colsest I've ever gotten to a collage graduation.
 
 Today I want to you three stories from my life.
 
-That's it No big deal just three stories.
+That's it ,No big deal ,just three stories.
 
 The first story is about commecting the dots.
 
 I dropped out of Read Collage after the first 6 months.
 
-But then stayed around as a drap-in.
-
-For another 18 months also before I realy quit.
+But then stayed around as a drap-in for another 18 months also before I realy quit.
 
 So why did I dropout.
 
@@ -24,13 +20,13 @@ It started before was born.
 
 My biological mother was young unwed collage graduate student.
 
-And she decided to put me up for adoption.
+and she decided to put me up for adoption.
 
 She felt very strongly that I should be adopted by collage graduates
 
-So everything was all set for me.
+So everything was all set,
 
-To be adopted at birth by a lawyer and his wife.
+for me to be adopted at birth by a lawyer and his wife.
 
 Except that when I popped out.
 
@@ -84,13 +80,15 @@ It wasn't all romantic I didn't have a dorm room.
 
 So I slept on the floor in friends'rooms.
 
-I returned coke bottles for the 5 cent deposits to buy food with and I would walk the 7 miles across town every Sunday night.
+I returned coke bottles for the 5 cent deposits to buy food with ,
+
+and I would walk the 7 miles across town every Sunday night.
 
 To get one good meal a week at the Have Krishna temple. I loved it.
 
-And much of what I stumbled into by following my curiosity and intuition.
+And much of what I stumbled into by following my curiosity and intuition,
 
-Turned out to be priceless later on.
+turned out to be priceless later on.
 
 Let me give you one example.
 
@@ -104,11 +102,11 @@ Because I had dropped out and didn't have to take the normal classes.
 
 I decided to take a calligraphy class to learn how to do this.
 
-I learned about serif and san-serif typefaces.
+I learned about serif and san-serif typefaces,
 
-About varying the amount of space between different letter combinations.
+About varying the amount of space between different letter combinations,
 
-About whatmakes great typography great
+About whatmakes great typography great.--
 
 It was beartiful,historical
 
