@@ -1,3 +1,4 @@
+- [jQuery事件](http://www.itdadao.com/articles/c15a1210874p0.html)
 
 > [插件](http://www.cnblogs.com/joey0210/p/3408349.html)
 ```javascript
