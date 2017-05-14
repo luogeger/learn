@@ -1,22 +1,399 @@
-## word
+## computer
+
+    available: 可获得的
+
+    handler: 处理者，管理者，训练者
+    
+    enterprise: 企业，事业
+
+    professional: 专业的，职业的，专业人员
+
+    community: 社区，群落，共同体，团体
+
+    visual: 视觉的，视力的
+
+    studio: 工作室，演播室，画室
+
+    
+
+    limit: 限制，界限
+
+    isolation: 隔离，孤立
+
+    unique: 独特的，稀罕的；[数]唯一的
+
+    outgoing: adj 对人友好，n , v
+
+    gutter: 排水沟，贫民区
+
+    slot: 位置，插槽
+
+    dialog: 对话，会话
+
+    conversation: 交谈，会话，交往，交际，人机对话
+
+    popups: 弹出窗口
+
+    hints: 暗示
+
+    sign: 迹象，标记
+
+    signal: 信号，暗号，导火线
+
+    dispatch: 派遣
+
+    broadcast: 播送，播放
+
+    invalid: 无效的，有病的，残疾的
+
+    layout: 布局，设计，陈列，安排
+
+    flow: 流动
+
+    state: 国家，州；vt 规定，申明
+
+    status: 地位，状态，重要身份
+
+    increase: 增加
+
+    perform: 执行，完成，演奏
+
+    enough: 足够地
+
+    engine: 引擎，渲染
+
+    justify: 证明合法，整理版面
+
+    stable: 马厩，牛棚；adj 稳定的，牢固的
+
+    quality: 质量，品质
+
+    bundle: 束，捆
+
+    const: 常量
+
+    let: 允许，出租，假设，妨碍
+
+    variable: 变量；variate
+
+    chunk: 大块，矮胖的人或物
+
+    greeter: (酒店、超市)接待员
+
+    registry: 注册
+
+    dependencise: n依赖性，相关性
+
+    scripts: 原稿，手稿(script的复数)
+
+    loader: 装货的人，载入程序
+
+    press: 压，按
+
+    compress: 压缩，受压缩
+
+    common: 共同的，普通的，一般的，通常的
+
+    fetch: 取来，接来，吸引，到达
+    
+    anchor: 锚
+
+    misspell: 拼错
+
+    capital: 首都，省会，大写字母
+
+    otherwise: 否则，另外
+
+    provider: 供应者，养家者
+
+    pending: 未决定的，将发生的；在...期间
+
+    binary: 二进制
+
+    compile: 编译，编制，编辑，汇编
+
+    command: 命令，指挥
+
+    injected: 充血的，注入的
+
+    insuffcient: 不足，缺乏
+
+    setup: 设置，机构，组织，调整
+
+    profile: 侧面，轮廓，外形，剖面
+
+    receive: 接受的，接受
+
+    generate: 生成的，发生的
+
+    promise: 许诺，承诺
+
+    aside: 在旁边，离开，撇开
+
+    article: 文章，物品，条款
+
+    routine: 程序，日常工作
+
+    structure: 结构，构造，建筑物； vt 组织，构成，建造
+
+    terminal: 末端，终端，极限
 
 
 
-```javascript
-    var name = 'lucy';
 
-```
+    
+
+
+
+## daily
+
+    native: 本国的，天然的
+
+    naive: 天真的，幼稚的
+
+    smooth: 顺利的，光滑的
+
+    subtype: 图表类型
+
+    subway: 地铁
+
+    subscribe: 订阅，捐款，赞成，签署
+
+    awake: 觉醒，意识到
+
+    encountered: 遇到，曾遭遇
+
+    descision: 决定，决心
+
+    shuffle: 洗牌，推卸，拖拽
+
+    site: 地点，位置
+
+    visa: 签证
+
+    alteration: 修改，改变
+
+    vote: 投票，选举
+
+    bread: 面包
+
+    splitting: 极快的，爆裂似的，剧烈的
+
+    medium: 中间的
+
+    director: 导演，主任，主管
+
+    original: 原作，原件，原型，原物；adj 原始的，最初的
+
+    collect: 收集，募捐
+
+    avatars: 替身，神使，形象化符号
+
+    casts: 演员阵容
+
+    genre: 类型，种类，样式，流派
+
+    average: 平均
+
+    rating: 等级，等级评定
+
+    apologies: 道歉
+
+    maintenance: 维护，维修，保持，生活费用
+
+    sticky: 粘的，粘性的
+
+    force: 力量，武力，军队，魄力；vt 促使，推动，强迫，强加
+
+    contributions: 贡献，出资
+
+    distribute: 分配，散步，分开，把...分类
+
+    issues: 议题，问题，债券
+
+    activity: 活跃，活动，行动
+
+    agent: 代理人，代理商
+
+    general: 一般的，普通的，综合的
+
+    theater: 电影院
+
+    skip: 跳跃，跳神，跳读，遗漏
+
+    asset: 资产
+
+    origin: 起源
+
+    constellation: 星座
+
+    trends: 动态，趋势
+
+    verify: 核实，查证
+
+    dismiss: 开除，解散
+
+    female: 女性的，雌性的
+    male: 男性的，雄性的
+
+    recreation: 娱乐，消遣
+
+    multi: 多
+
+    mute: 哑的，沉默的
+
+    mutate: 变化，产生突变
+
+    mutation: 突变
+
+    secret: 秘密
+
+    optimal: 最佳的，最理想的，优化
+    optimize: 优化
+
+    preview: 预览，事先查看
+
+    throttling: 节气，节流，油门调节
+
+    custom: 习惯，风俗，自定义
+
+    scan: 扫描，浏览，详细调查
+
+    track: 轨道，足迹，踪迹，追踪
+
+    modified: 修改的，改良的
+
+    fatal: 致命的，毁灭性的，命中注定的
+
+    album: 相簿，唱片集，签名纪念册
+
+    artist: 艺术家
+
+    defect: 缺点，缺陷，不足之处；vi 叛变
+
+    navigate: 导航，驾驶，操纵
+
+    favorites: 收藏夹，偏爱
+
+    via: 渠道，通过
+
+    access: 使用，存取，接近
+
+    allow: 允许，给予，认可
+
+    credits: 信用，学分
+
+    zoom: 急速上升; [摄] 变焦摄影
+
+    period: 周期，期间，时期，月经，课时
+
+    actual: 真实的，实际的
+
+    estimate: 估计，估价
+
+    priority: 优先，优先权；[数学]优先次序，优先考虑的事
+
+    backlog: [管理]积压的工作，积压代办的事务
+
+    schedul: 目录，图表
+    schedule: 安排，计划，编制目录；将...列入计划表
+
+    sprint: 冲刺，全速跑
+
+    hyper: 亢奋的，高度紧张的；n 宣传人员
+
+    strike: 打，打击，罢工，敲击
+
+    emphasis: 重点，强调，加强语气
+
+    confirm: 确认，证实，批准
+
+    horizontal: 水平的，地平线的
+    horizon: [天] 地平线
+
+    indent: 缩排，切割锯齿状
+
+    reference: 参考，参照，涉及
+
+    level: 水平，标准；adj 平坦的
+
+    crease: 折痕，折缝
+
+    paragraph: 段落，短评
+
+    scope: 范围，视野，余地
+
+    plain: 朴素的，简单的，清晰的
+
+    preference: 偏爱，倾向，优先权
+
+    content:
+    concent:
+    tethering: 
+
+    integration: 集成，综合
+
+    develop: 开发，进步
+
+    environment: 环境
+
+    effect: 影响，效果，作用
+
+    
+
+
+---- re
+    revert: 回复
+
+    restore: 恢复
+
+    recent: 最近的
+
+    reserve: 储备，储存
+
+    repost: vt 重新投递，n 尖锐的反驳
+
+    replay: 回答，答辩，回击
+
+    require: 需要，要求，命令
+
+    redirect: 使改方向，重新寄送
+
+    region: 地区，范围，部位
+
+
+
+
+
+---- ex
+    express: 表达，快递
+
+    exercise: 运动，练习
+
+    expect: 期望，指望，认为，期待，预期
+
+    expires: 到期，有效期
+    expired: 过期的，失效的
+
+    exclude: 排除，排斥，逐出，拒绝接纳
+
+    exist: 存在，生存，生活，继续存在
+
+    extract: 提取，去出，摘录，榨取
+
+
+
+
 
 ## sentence
 
-
 ## git
-
 
 ## webstorm
 
-
 ## sum
+
+## toot
 
 - 1.an- 在词根前，表示"不，无"
 
