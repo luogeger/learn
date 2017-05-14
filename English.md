@@ -1,10 +1,11 @@
 ## word
 
-hello
 
-word
 
-visual studio Code **ni hao**  ``nihao``
+```javascript
+    var name = 'lucy';
+
+```
 
 ## sentence
 
@@ -17,7 +18,7 @@ visual studio Code **ni hao**  ``nihao``
 
 ## sum
 
-- 1. an- 在词根前，表示"不，无"
+- 1.an- 在词根前，表示"不，无"
 
     anarchism无政府主义（an+arch统治+ism→无统治→无政府主义）
 
@@ -29,7 +30,7 @@ visual studio Code **ni hao**  ``nihao``
 
 
 
-- 2. anti-表示"反对，相反"
+- 2.anti-表示"反对，相反"
 
     antiwar反战的（anti+war战争）
 
@@ -39,7 +40,7 @@ visual studio Code **ni hao**  ``nihao``
 
     antibacterial 抗菌的（anti+bacterial细菌的）
 
-- 3. bi-表示"两个，两"
+- 3.bi-表示"两个，两"
 
     biweekly双周刊（bi+week星期+ly→两星期）
 
@@ -49,7 +50,7 @@ visual studio Code **ni hao**  ``nihao``
 
     biannual一年两次的（bi+ann[年]+ual→一年两次的）
 
-- 4. contra-表示"反对，相反"
+- 4.contra-表示"反对，相反"
 
     contrary相反的（contra+ary→相反的）
 
@@ -59,7 +60,7 @@ visual studio Code **ni hao**  ``nihao``
 
     contraband走私（contra+band命令→违反命令做事→走私；参考：ban禁止）
 
-- 5. counter-表示"反对，相反"
+- 5.counter-表示"反对，相反"
 
     counteract对抗；抵消（counter+act行为→反着行动→对抗）
 
@@ -67,7 +68,7 @@ visual studio Code **ni hao**  ``nihao``
 
     countermand撤消（counter+mand命令→反命令→撤消〔命令〕）
 
-- 6. de- 表示"去掉，变坏，离开，变慢，向下"等
+- 6.de- 表示"去掉，变坏，离开，变慢，向下"等
 
     destruction破坏（de+struct结构；建造＋ion→弄坏结构→破坏）
 
@@ -87,7 +88,7 @@ visual studio Code **ni hao**  ``nihao``
 
     defame诽谤，中伤（de+fame名声→名声变坏→诽谤）
 
-- 7. semi-表示“半”
+- 7.semi-表示“半”
 
     semimonthly半月刊（semi+monthly月刊）
 
@@ -99,7 +100,7 @@ visual studio Code **ni hao**  ``nihao``
 
     semiautomatic半自动的（semi+automatic自动的）
 
-- 8. 父，祖－patr(i); part(o); pater
+- 8.父，祖－patr(i); part(o); pater
 
     patriarch[patri父，祖arch首脑，长]家长；族长
 
@@ -117,14 +118,13 @@ visual studio Code **ni hao**  ``nihao``
 
     paternalism[见上，-ism表示行为，现象]家长式统治，家长作风
 
-- 9. ex-① 表示"出，出去"
+- 9.ex-① 表示"出，出去"
 
     exclude排外（ex+clude关闭→关出去→排外）
 
     expel赶出，逐出（ex+pel推→推出去→逐出）
 
     expose暴露（ex+plse放→放出去→暴露）
-    
     
     extract抽出，拔出（ex+tract拉→拉出→拔出）
 
@@ -365,7 +365,7 @@ visual studio Code **ni hao**  ``nihao``
 
     ultraliberal极端自由主义的（ultra+liberal自由的）
 
-- 25. deci-表示“十分之一”
+- 25.deci-表示“十分之一”
 
     decimeter十分之一米（deci+meter米）
 
