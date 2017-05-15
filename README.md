@@ -1,5 +1,5 @@
 # Learn
-
+[Me](imgs/mmexport1451125082410.jpg)
 
 - 1.测试硬盘读写速度
 	- 管理员身份打开命令行``winsat disk -drive c``
@@ -9,14 +9,21 @@
 	- 1.在nodejs中同级目录下创建一个临时文件夹 t
 	- 2.打开命令行窗口，进入nodejs目录下
 		输入命令：C:\Windows\System32\Robocopy.exe /MIR t node_module
-		
-- 3.webstorm背景色：浅蓝EDFCED，浅黄F5F5D5
-
-- 4.
+	
 
 
-[Me](imgs/mmexport1451125082410.jpg)
 
+## tools
+- webstorm
+    - 1.webstorm背景色：浅蓝EDFCED，浅黄F5F5D5
+
+
+- vscode
+    - 1.ctrl + F1 : view in browser; "command": "extension.viewInBrowser",
+    - 2.自动保存: "files.autoSave": "afterDelay",
+    - 3.keyboard: 
+    - 4.tab: 
+    
 ## Node
 
 - 什么是Node
