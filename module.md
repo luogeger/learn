@@ -82,12 +82,137 @@
     })
 ```
 
+## 模块化的演变
+### 全局函数：在全局定义 add, sub, mul, div. 4个函数
+    - 执行运算的时候，获取``type`` 类型，进行判断``switch``
+    ```html
+        <input type="text" id="t1">
+        <select id="sel">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">*</option>
+            <option value="4">/</option>
+        </select>
+        <input type="text" id="t2">
+        <input type="button" value="计算" id="btn">
+        <span id="result"></span>
+    ```
+    ```javascript
+          window.onload = function () {
+              var btn = document.getElementById("btn");
+              btn.onclick = function () {
+                  var n1 = document.getElementById("t1").value;
+                  var n2 = document.getElementById("t2").value;
+                  var type = document.getElementById("sel").value;
+                  var result = document.getElementById("result");
+  
+                  //进行计算
+                  switch (type) {
+                      case "1":
+                          result.innerText = add(n1, n2);
+                          break;
+                      
+                  }
+              };
+          }
+    ```
 
+### 对象封装
+> 全局函数造成变量污染，但是，对象封装还是无法提供私有成员
+```javascript
+    var obj = {
+        add: function add(a, b) {
+            return parseInt(a) + parseInt(b);
+        },
+        sub: function sub(a, b) {
+            return parseInt(a) - parseInt(b);
+        },
+        mul: function mul(a, b) {
+            return parseInt(a) * parseInt(b);
+        },
+        div: function div(a, b) {
+            return parseInt(a) / parseInt(b);
+        }
+    };
 
+```
 
+### 隔离私有空间 
+- 通过``自执行函数``
+```javascript
+    var obj = (function () { 
+                function log() {
+                    console.log("我是打酱油的");
+                };// 这就是私有的成员
+    
+                return {
+                    add: function add(a, b) {
+                        log();
+                        return parseInt(a) + parseInt(b);
+                    },
+                    sub: function sub(a, b) {
+                        log();
+                        return parseInt(a) - parseInt(b);
+                    },
+                    mul: function mul(a, b) {
+                        return parseInt(a) * parseInt(b);
+                    },
+                    div: function div(a, b) {
+                        return parseInt(a) / parseInt(b);
+                    }
+                };
+            }())
+```
 
+#### 还可以对模块进行扩展
+```javascript
+    var obj = (function (o) {
+        //求平方
+        o.power = function (a) {
+            return parseInt(a) * parseInt(a);
+        }
+   
+        return o;
+    }(obj || {}));
+```
 
+### 引用模块
+```
+利用sea.js的能力，``seajs.use("A","B")``;
+A: 想调用的模块的地址，相对于seajs的相对地址
+B: 是一个方法，
+```
 
+> 首先，定义一个模块A
+```javascript
+define(function (require, exports, module) {
+    // -require 需要 -exports 输出 -module  模块
+    exports.add = function (a, b) {
+        return parseInt(a) + parseInt(b);
+    }
+    exports.sub = function (a, b) {
+        return parseInt(a) - parseInt(b);
+    }
+});
+```
+    ```
+        1.exports和module.exports使用上的区别
+        2.exports  功能 输出成员，不可以导出对象
+        3.module 功能 可以使用module.exports的方式输出成员， 可以导出对象
+        
+        4.exports和module.exports 本质的区别
+        5.exports = module.exports = {},  exprots被赋值的是引用
+    ```
+> 然后在引用模块
+```html
+<script src="scripts/sea-debug.js"></script>
+```
+```javascript
+seajs.use("module1/math.js", function (obj) {
+    console.log(obj.add(5, 6));
+    console.log(obj.sub(5, 6));
+});
+```
 
 
 
