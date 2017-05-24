@@ -9,7 +9,17 @@
 	- 1.在nodejs中同级目录下创建一个临时文件夹 t
 	- 2.打开命令行窗口，进入nodejs目录下
 		输入命令：C:\Windows\System32\Robocopy.exe /MIR t node_module
-	
+
+- 3.跨域
+	- Ajax跨域几种方法：
+		- CORS跨域
+		- postMessage跨域
+		- document.domain同主域，不同子域之间跨域
+		- iframe的hash跨域
+		- window.name跨域
+		- JSONP跨域
+		- 后端代理跨域
+			- 其中1、2、3、6是最常用的	
 
 
 
