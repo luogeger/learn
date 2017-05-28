@@ -21,8 +21,6 @@
 		- 后端代理跨域
 			- 其中1、2、3、6是最常用的	
 
-
-
 ## tools
 - webstorm
     - 1.webstorm背景色：浅蓝EDFCED，浅黄F5F5D5
