@@ -59,13 +59,17 @@
   - nrm ls查看不同的下载源地址
   - nrm use cnpm 切换到cnpm下载源
   - cnpm 替换 npm,以后用到npm的地方就用cnpm -> 执行下面命令：
-    - ``$ npm install -g cnpm --registry=https://registry.npm.taobao.org``
+- **注意：** 有时候npm的速度很慢，可以考虑cnpm, 输入下面命令行
+	- ``npm install -g cnpm --registry=https://registry.npm.taobao.org``
+	-  输入命令：``cnpm``检查是否安装好，以后用到npm的地方用cnpm代替。
   
 - 常用的npm命令
   + npm init 初始化一个	package.json  文件，如果加上-y就不需要在敲回车了
   + npm install -g bower 全局安装bower
   + npm install jquery --save-dev 本地安装jquery并记录到package.json中
   + npm uninstall 包名 删除包 如果是全局安装就加上-g
+  
+
 	
 ## Typora
 ```html
