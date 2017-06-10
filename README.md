@@ -72,6 +72,7 @@
 
 	
 ## Typora
+
 ```html
 <thead>
 	<tr>
