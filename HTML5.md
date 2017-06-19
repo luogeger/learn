@@ -440,3 +440,40 @@ li[people|=dog]{
 ### web图标
 
 
+# css property
+- 1.``overflow``
+```css
+{
+    overflow: visible; /*(默认) 明显地*/
+    overflow: hidden; 
+    overflow: scroll;
+    overflow: auto;
+    overflow: inherit; /*继承*/
+}
+```
+
+- 2.``background``
+```css
+{
+    background: ;
+    background-attachment: ;
+    background-color: ;
+    background-clip: ;
+    background-image: url();
+    background-origin: ;
+    background-repeat: ;
+    background-size: ;
+    background-position: 0 0;
+    background-position-x: ;
+    background-position-y: ;
+}
+```
+
+- 3.``box-shadow``
+
+- 4.``text-shadow``
+
+- ``display: flex;``
+
+
+
