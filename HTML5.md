@@ -1,7 +1,7 @@
 # HTML5 CSS3
 ## First
 ### 语义化更强的标签
-```HTML
+```html
 <header>
      <nav>nav</nav>
 </header>
@@ -20,7 +20,7 @@
 - **datalist标签**：id必须和input标签的list属性值一样。input获取焦点以后才会有下拉框的效果。--类似select
 - **keygen标签**：基本不用
 - **output标签**：配合``type='range'``使用。它的作用类似于span 本身没有任何功能,没有任何默认的外观,只是语义性强,可以用来放结果如果要使用一般是配合用来显示结果
-```HTML
+```html
 <form>
     <fieldset>
         <legend>新form标签</legend>
@@ -54,7 +54,7 @@ function changeNum(obj) {
 - ``multiple``: 针对``type='file'``，添加之后可以选择多个文件
 - ``name="jserAge"``: 提交之后输入框有提示，必须加``name``属性
 - ``form='formTest'``: 表单之外的``input``被获取，要关联一下，form的属性必须和form标签的ID一样。
-```HTML
+```html
     <form id='formTest'>
         <input type="text" value='' placeholder="请输入用户名">
         <br>
@@ -75,8 +75,7 @@ function changeNum(obj) {
 
 ### input标签的type属性
 - color、date、email、month、number、range、search、tel、time、week
-```HTML
-<form>
+```html
     <fieldset>
         <legend>input的新type属性</legend>
         <label>color:
@@ -440,6 +439,114 @@ li[people|=dog]{
 ### web图标
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## [animate.css](https://github.com/daneden/animate.css)
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 布局
+- 自动换行：word-wrap:break-word; (包括数字)
+
+
+```css
+{
+    overflow: hidden;
+    text-overflow: ellipsis;/* 文字超出用...*/
+    white-space: nowrap;/* 文字不换行*/
+}
+```
+
+
+
+
+## 弹性布局
+- parent有6个属性
+    
+```css
+{
+    display: flex;
+    flex-direction: row | row-reverse | column | column | column-reverse;
+    flex-wrap: 
+}
+
+```
+
+1.``flex-direction``
+    child的水平和垂直的排列方向，以及排列顺序
+
+2.``flex-wrap``
+
+
+- child也有6个属性
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # css property
 - 1.``overflow``
 ```css
@@ -473,7 +580,7 @@ li[people|=dog]{
 
 - 4.``text-shadow``
 
-- ``display: flex;``
+
 
 
 
