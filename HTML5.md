@@ -582,5 +582,7 @@ li[people|=dog]{
 
 
 
+- push之后在修改，commit, 在pull
+
 
 
