@@ -526,75 +526,79 @@ li[people|=dog]{
 
 > 1.``flex-direction``: row | row-reverse | column | column | column-reverse ;
 
-    - 决定主轴的方向 -> 就是item的排列方向
-    
-        1 ``row``(默认)：主轴为水平方向，起点在左
-        
-        2 ``row-reverse``: 水平，起点在右
-        
-        3 ``column``： 主轴为垂直方向，起点在上
-        
-        4 ``column-reverse``：垂直方向，起点在下
+决定主轴的方向 -> 就是item的排列方向
+
+1``row``(默认)：主轴为水平方向，起点在左
+
+2``row-reverse``: 水平，起点在右
+
+3``column``： 主轴为垂直方向，起点在上
+
+4``column-reverse``：垂直方向，起点在下
+
     
 > 2.``flex-wrap``: nowrap | wrap | wrap-reverse;
 
-    - 默认下，item在一条轴线上，这个属性定义轴线放不了那么多item，决定如何换行
+默认下，item在一条轴线上，这个属性定义轴线放不了那么多item，决定如何换行
+
+1``nowrap``(默认): 不换行
+
+2``wrap``: 正常换行，多余的一次向下排放
+
+3 ``wrap-reverse``: 多余的往上面放
     
-        - ``nowrap``(默认): 不换行
-        
-        - ``wrap``: 正常换行，多余的一次向下排放
-        
-        - ``wrap-reverse``: 多余的往上面放
     
 > 3.``flex-flow``: row nowrap;
 
-    - 是上面2个的合并属性；
+是上面2个的合并属性；
+
 
 
 > 4.``justify-content``: flex-start | flex-end | center | space-between | space-around;
 
-    - 定义item在主轴上面的对齐方式
-    
-    - ``flex-start``：左对齐
-    
-    - ``flex-end``：右对齐
-    
-    - ``center``：居中
-    
-    - ``space-between``：两端对齐，item之间的距离相等
-    
-    - ``space-around``：也是item之间的距离相等，但是两边的item与边框有距离，这个距离是item之间距离的1/2
+定义item在主轴上面的对齐方式
+
+1``flex-start``：左对齐
+
+2``flex-end``：右对齐
+
+3``center``：居中
+
+4``space-between``：两端对齐，item之间的距离相等
+
+5``space-around``：也是item之间的距离相等，但是两边的item与边框有距离，这个距离是item之间距离的1/2
 
 
 > 5.``alihn-items``: flex-start | flex-end | center | baseline | stretch ;
 
-    - 定义item在交叉轴上的对齐方式
-    
-    - ``flex-start``：全部靠边框``交叉轴``上面对齐
-    
-    - ``flex-end``：下面对齐
-    
-    - ``center``：中点线对齐
-    
-    - ``baseLine``：和项目第一行文字的基线对齐
-    
-    - ``stretch``：``默认``，如果item没有设置高度或auto，item将占满整个容器的高度
+定义item在交叉轴上的对齐方式
+
+1``flex-start``：全部靠边框``交叉轴``上面对齐
+
+2``flex-end``：下面对齐
+
+3``center``：中点线对齐
+
+4``baseLine``：和项目第一行文字的基线对齐
+
+5``stretch``：``默认``，如果item没有设置高度或auto，item将占满整个容器的高度
+
 
 > 6.``align-content``: flex-start | flex-end | center | space-between | space-around | stretch ;
 
-    - 定义了多根轴线的对齐方式，**如果只有一根轴线，这个属性就不起作用**
-    
-    - ``stretch``：默认，轴线占满整个交叉轴
-    
-    - ``flex-start``：上面对齐
-    
-    - ``flex-end``：下面对齐
-    
-    - ``center``：中间对齐
-    
-    - ``space-between``：两端对齐，轴线之间的间隔均分
-    
-    - ``space-around``：轴线之间的距离 是 轴线到边框距离 的 2倍
+定义了多根轴线的对齐方式，**如果只有一根轴线，这个属性就不起作用**
+
+1``stretch``：默认，轴线占满整个交叉轴
+
+2``flex-start``：上面对齐
+
+3``flex-end``：下面对齐
+
+4``center``：中间对齐
+
+5``space-between``：两端对齐，轴线之间的间隔均分
+
+- ``space-around``：轴线之间的距离 是 轴线到边框距离 的 2倍
 
 ### item也有6个属性
 - 1.``order``: 
