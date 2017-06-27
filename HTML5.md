@@ -526,15 +526,15 @@ li[people|=dog]{
 
 > 1.``flex-direction``: row | row-reverse | column | column | column-reverse ;
 
-决定主轴的方向 -> 就是item的排列方向
-
-1``row``(默认)：主轴为水平方向，起点在左
-
-2``row-reverse``: 水平，起点在右
-
-3``column``： 主轴为垂直方向，起点在上
-
-4``column-reverse``：垂直方向，起点在下
+    决定主轴的方向 -> 就是item的排列方向
+    
+    1``row``(默认)：主轴为水平方向，起点在左
+    
+    2``row-reverse``: 水平，起点在右
+    
+    3``column``： 主轴为垂直方向，起点在上
+    
+    4``column-reverse``：垂直方向，起点在下
 
     
 > 2.``flex-wrap``: nowrap | wrap | wrap-reverse;
