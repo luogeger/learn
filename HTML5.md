@@ -535,24 +535,24 @@ li[people|=dog]{
 
     决定主轴的方向 -> 就是item的排列方向
     
-    1``row``(默认)：主轴为水平方向，起点在左
-    
-    2``row-reverse``: 水平，起点在右
-    
-    3``column``： 主轴为垂直方向，起点在上
-    
-    4``column-reverse``：垂直方向，起点在下
+1``row``(默认)：主轴为水平方向，起点在左
+
+2``row-reverse``: 水平，起点在右
+
+3``column``： 主轴为垂直方向，起点在上
+
+4``column-reverse``：垂直方向，起点在下
 
     
 > 2.``flex-wrap``: nowrap | wrap | wrap-reverse;
 
     默认下，item在一条轴线上，这个属性定义轴线放不了那么多item，决定如何换行
     
-    1``nowrap``(默认): 不换行
-    
-    2``wrap``: 正常换行，多余的一次向下排放
-    
-    3 ``wrap-reverse``: 多余的往上面放
+1``nowrap``(默认): 不换行
+
+2``wrap``: 正常换行，多余的一次向下排放
+
+3 ``wrap-reverse``: 多余的往上面放
     
     
 > 3.``flex-flow``: row nowrap;
@@ -565,47 +565,47 @@ li[people|=dog]{
 
     定义item在主轴上面的对齐方式
     
-    1``flex-start``：左对齐
-    
-    2``flex-end``：右对齐
-    
-    3``center``：居中
-    
-    4``space-between``：两端对齐，item之间的距离相等
-    
-    5``space-around``：也是item之间的距离相等，但是两边的item与边框有距离，这个距离是item之间距离的1/2
+1``flex-start``：左对齐
+
+2``flex-end``：右对齐
+
+3``center``：居中
+
+4``space-between``：两端对齐，item之间的距离相等
+
+5``space-around``：也是item之间的距离相等，但是两边的item与边框有距离，这个距离是item之间距离的1/2
 
 
 > 5.``align-items``: flex-start | flex-end | center | baseline | stretch ;
 
     定义item在交叉轴上的对齐方式
     
-    1``flex-start``：全部靠边框``交叉轴``上面对齐
-    
-    2``flex-end``：下面对齐
-    
-    3``center``：中点线对齐
-    
-    4``baseLine``：和项目第一行文字的基线对齐
-    
-    5``stretch``：``默认``，如果item没有设置高度或auto，item将占满整个容器的高度
+1``flex-start``：全部靠边框``交叉轴``上面对齐
+
+2``flex-end``：下面对齐
+
+3``center``：中点线对齐
+
+4``baseLine``：和项目第一行文字的基线对齐
+
+5``stretch``：``默认值``，如果item没有设置高度或auto，item将占满整个容器的高度
 
 
 > 6.``align-content``: flex-start | flex-end | center | space-between | space-around | stretch ;
 
     定义了多根轴线的对齐方式，**如果只有一根轴线，这个属性就不起作用**
     
-    1``stretch``：默认，轴线占满整个交叉轴
-    
-    2``flex-start``：上面对齐
-    
-    3``flex-end``：下面对齐
-    
-    4``center``：中间对齐
-    
-    5``space-between``：两端对齐，轴线之间的间隔均分
-    
-    6``space-around``：轴线之间的距离 是 轴线到边框距离 的 2倍
+1``stretch``：默认，轴线占满整个交叉轴
+
+2``flex-start``：上面对齐
+
+3``flex-end``：下面对齐
+
+4``center``：中间对齐
+
+5``space-between``：两端对齐，轴线之间的间隔均分
+
+6``space-around``：轴线之间的距离 是 轴线到边框距离 的 2倍
 
 
 
@@ -623,45 +623,45 @@ li[people|=dog]{
 - 6.``align-self``:
 
 
-> 1.``order``: <integer>;
+> 1.``order``: integer;
 
     定义item的排列顺序，数值越小，排列越靠前，默认为0；
 
-> 2.``flex-grow``: <number>;
+> 2.``flex-grow``: number;
 
-    定义了item的放大比例额，默认是``0``，即使存在剩余空间，也不放大。
+    定义了item的放大比例额，默认是0，即使存在剩余空间，也不放大。
     
     
 
-> 3.``flex-shrink``: <number>;
+> 3.``flex-shrink``: number;
     
-    定义了item的缩小比例，默认是``1``，如果空间不足，这个item缩小。
+    定义了item的缩小比例，默认是1，如果空间不足，这个item缩小。
     
-    空间不足的时候，所有item都等比缩小，设置有``flex-shrink: 0;``的item不会缩小
+空间不足的时候，所有item都等比缩小，设置有``flex-shrink: 0;``的item不会缩小
 
 > 4.``flex-basis``: 
     
     定义item的固定值，可以用px为单位
     
-    flex-basis: 100%; 单个item占据整行, 可以实现骰子5的形状
+flex-basis: 100%; 单个item占据整行, 可以实现骰子5的形状
     
 
 > 5.``flex``: 
 
     前面3个属性的简写，有1个默认值，和2个快捷值
     
-    1.``default``: 0 1 auto;
-    2.``auto``: 1 1 auto;
-    3.``none``: 0 0 auto;
+1.``default``: 0 1 auto;
+2.``auto``: 1 1 auto;
+3.``none``: 0 0 auto;
     
 
 > 6.``align-self``: auto | flex-start | flex-end | center | baseline | stretch ;
 
-    为自己单独设置和其他item不一样的对齐方式，会覆盖``align-items``属性。
-    默认是``auto``,表示继承container的``align-items``属性，
-    如果没有container，就等同于``stretch``
+    为自己单独设置和其他item不一样的对齐方式，会覆盖align-items属性。
+    默认是auto,表示继承container的align-items属性，
+    如果没有container，就等同于stretch
     
-    1.``auto``: 除了这个属性，其他都与``align-itmes``完全一样
+1.``auto``: 除了这个属性，其他都与``align-itmes``完全一样
     
 
 
