@@ -674,7 +674,7 @@ flex-basis: 100%; 单个item占据整行, 可以实现骰子5的形状
 
 
 # css property
-- 1.``overflow``
+### 1.``overflow``
 ```css
 {
     overflow: visible; /*(默认) 明显地*/
@@ -685,26 +685,40 @@ flex-basis: 100%; 单个item占据整行, 可以实现骰子5的形状
 }
 ```
 
-- 2.``background``
-```css
-{
-    background: ;
-    background-attachment: ;
-    background-color: ;
-    background-clip: ;
-    background-image: url();
-    background-origin: ;
-    background-repeat: ;
-    background-size: ;
-    background-position: 0 0;
-    background-position-x: ;
-    background-position-y: ;
-}
-```
+### 2.``background``
+- ``background-attachment``: scroll  |  fixed;
+    - 设置背景图像是否固定或者随着页面的其余部分滚动。
 
-- 3.``box-shadow``
 
-- 4.``text-shadow``
+- ``background-color``: transparent;
+
+
+- ``background-repeat``: 0% 0%  |  left top|left center|left bottom|right top|right center|right bottom|center top|center center|center bottom;
+    - 如果仅指定一个关键字，其他值将会是"center"
+    
+    
+- ``background-origin``: border-box  |  content-box  |  padding-box;
+
+- ``background-clip``: border-box  |  content-box  |  padding-box;
+
+- ``background-size``: auto  |  length  |  percentage  |  cover  |  contain;
+    - ``length``: 设置背景图片的高度和宽度，first宽度，second高度。如果只给一个值，second值为auto
+    - ``percentage``: 将计算相对于背景定位区域的百分比
+    - ``cover``: 图片会铺满 - 不会有留白，可能部分显示不了 - 相当于``100%``，
+    - ``contain``: 图片完全显示 - 可能有留白
+    
+
+- background-position: 0 0;
+
+- background-position-x: ;
+
+- background-position-y: ;
+
+
+
+### 3.``box-shadow``
+
+### 4.``text-shadow``
 
 
 
