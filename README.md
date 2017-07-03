@@ -23,7 +23,7 @@
 
 ## tools
 - webstorm
-    - 1.webstorm背景色：浅蓝EDFCED，浅黄F5F5D5
+    - 1.webstorm – 激活 - http://idea.imsxm.com 
 
 
 - vscode
