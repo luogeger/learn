@@ -24,6 +24,9 @@
 ## tools
 - webstorm
     - 1.webstorm – 激活 - http://idea.imsxm.com 
+    - 2.快捷键：
+        - 函数和变量声明的地方、 Ctrl + B
+        - 文件的来回切换、 alt + 左右箭头
 
 
 - vscode
