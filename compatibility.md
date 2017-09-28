@@ -1,4 +1,6 @@
-# IE8+兼容性小结
+# Compatibility
+
+## compatibility -> html + css
 
 ### 1. DOCTYPE
 1. 首先页面开始部分要有DOCTYPE的声明。
@@ -94,7 +96,10 @@ filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
 > **pit:** 实践中发现，所有``position: relative;``的元素都不会生效。
 - 其他的发现，IE9对``filter: blur(10px)``无效，而对``filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');``是针对小范围的模糊效果。
 
-### compatibility
+
+
+
+## compatibility -> javasScript 
 - className: 获取拥有这个类名的所有标签，在进行判断
 - 事件参数e: window.event
 - 添加事件：主流是addEventListener, IE是：attachEvent
@@ -103,3 +108,21 @@ filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
 - IE浮动之后有个双边距现象
 - margin合并现象：垂直方向可以合并，但是不能包含合并。解决：良好的编码习惯避免
 - IE8以下的版本，宽高不包括padding 和 border。
+- 获取滚动距离
+
+### javasScript
+
+- 获取滚动距离
+```javascript
+function scroll() {
+    var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;;
+    var scrollLeft = document.body.scrollLeft || document.documentElement.scrollLeft;
+
+    var obj = {
+        scrollTop : scrollTop,
+        scrollLeft : scrollLeft
+    };
+
+    return obj;
+};
+```
