@@ -54,6 +54,7 @@
     +  tail 查看文件后几行 –n –f，如 tail index.html、tail -5 index.html 
     +  history 查看操作历史
     +  whoami 查看当前用户
+    
 ## 3.Git简单介绍
   - 什么是Git
     + Git是一款源代码管理工具（版本控制工具）
@@ -64,6 +65,7 @@
   - 集中式和分布式
     + 集中式：Svn
     + 分布式：Git
+    
 ## 4.Git命令使用
    - Git初次使用添加用户名和邮箱 
      + 配置用户名：` git config --global user.name "你的用户名" `
@@ -179,6 +181,18 @@
 
         # 拉取最新代码，同时会让你merge冲突
         git pull
+   ```
+   
+   - 和远程仓库关联
+   ```markdown
+        将本地的仓库关联到github上
+        git remote add origin https://github.com/luogeger/...
+        
+        上传github之前，要先pull一下
+        git pull origin master
+        
+        最后push到远程仓库
+        git push -u origin master
    ```
 
 ## 5.Git原理以及常用步骤
