@@ -140,7 +140,12 @@
          - 切换到dev分支
      - 创建并切换到指定分支
        - `git checkout -b dev`
-       
+     
+   - 10.取消文件版本跟踪
+     - git rm --cached readme1.txt    删除readme1.txt的跟踪，并保留在本地。
+     - git rm --f readme1.txt    删除readme1.txt的跟踪，并且删除本地文件。
+     - 然后git commit即可。但是git status查看状态时还是会列出来。
+     
    - 合并Git分支
      - 画图
      - 命令: git merge dev
