@@ -68,42 +68,27 @@
      - 配置邮箱  ：` git config --global user.email "你的邮箱" `
      - 删除错误配置  ：` git config --global --unset   "错误的key删除掉" `
      - 查看配置  ：` git config --list `
-     - 去任何一家公司现完成上面的步骤
-     
-   - 02.初始化一个空的仓储
-     - 初始化空仓储:` git init `
-     - 这个命令会在当前目录中新建一个隐藏的名为.git的文件夹,里面存储的是项目的各个版本。
-     - 千万不要更改.git目录里文件。 
-     
-   - 03.查看当前目录文件的状态
-       - 命令  : ` git status ` 
-         - 查看当前工作目录的状态，是已经放到暂存区，还是提交到仓库了。
+
+
+   - 02.查看当前目录文件的状态
+       - 命令  : ` git status ` : 查看当前工作目录的状态，是已经放到暂存区，还是提交到仓库了。
        - 或命令: ` git status -s ` 查看简要的状态信息
        
    - 04.将文件添加到暂存区
-       - 命令: ` git add ./file.txt`
-         - 将当前目录中的file.txt添加到暂存区
-       - 或者: ` git add .`
-         - 表示将当前目录所有文件都添加的暂存区.
-         - 这是批量添加.
+       - 命令: ` git add ./file.txt`:将当前目录中的file.txt添加到暂存区
+       - 或者: ` git add .`: 表示将当前目录所有文件都添加的暂存区.
        - 可以对文件执行多次add命令，都会把最新的修改添加到暂存，但是，后页面执行add命令，会把前面执行add命令添加到暂存区的文件覆盖(相同的文件会覆盖)
        
    - 05.将文件添加到仓储中
       - 命令  : ` git commit -m "这次我添加了一个变量" `
-         - -m 表示需要指定一个字符串，表示本次提交的代码与上一次相比多了哪些功能，或者是做了哪些修改。
-         - 每次提交时都需要写上相应的字符串以做出说明
       - 或命令: ` git commit -m  -c`
-         - -c 表示可以在提交时，不提供说明。
-         - 不推荐这么做，不利于后期代码维护
-         - 提交时只是提交暂存区的代码，没有添加到暂存区的代码不会提交
          
-   -  06.查看日志
+   - 06.查看日志
      - 命令:`git log`
      - 或命令:`git log --oneline`
      - 以图形化查看:`git log –graph`
      
    - 07.忽略文件
-     - 不要省略/ 除非有必要
      - 需要新建一个名为:  .gitignore 的文件
      - 这个文件话.git同级目录.
        - 该文件用来告诉我们的git哪些文件不要被添加一仓储中。
@@ -132,34 +117,23 @@
         
    - 09.创建Git分支，并切换分支
      - 正在做功能呢，才做了一半，但是为了不丢失代码要提交，又不能影响别人工作。
-     - 查看有多少分支
-        - `git branch`
-     - 命令: git branch dev
-        - 创建了一个名为dev的分支
-     - 命令: git checkout dev
-         - 切换到dev分支
-     - 创建并切换到指定分支
-       - `git checkout -b dev`
-     
+     - `git branch`: 查看有多少分支
+     - `git branch dev`: 创建了一个名为dev的分支
+     - `git checkout dev`: 切换到dev分支
+     - `git checkout -b dev`: 创建并切换到指定分支
+
    - 10.取消文件版本跟踪
      - git rm --cached readme1.txt    删除readme1.txt的跟踪，并保留在本地。
      - git rm --f readme1.txt    删除readme1.txt的跟踪，并且删除本地文件。
      - 然后git commit即可。但是git status查看状态时还是会列出来。
      
    - 合并Git分支
-     - 画图
-     - 命令: git merge dev
+     - `git merge dev`
         - 表示将当前分支与dev分支合并
         - 在主分支下执行合并命令. 
-     - 命令: git branch -d dev
+     - `git branch -d dev`
         - 表示删除dev分支,当合并分支后，如果不需要再使用dev分支，则可以直接删除。
         - 不要在dev分支执行这个命令，在别的的分支执行.
-        
-   - 解决冲突
-     - 应该是如何合并冲突。
-     - 冲突是不可避免的。
-     - 当在新功能完成后合并前，修改并提交了主分支对应的文件，合并时两个分支中的文件有冲突。
-     - 手动修改文件，然后提交
 
    - 查看冲突未处理的文件列表
    ```markdown
@@ -196,6 +170,10 @@
    
    - 和远程仓库关联
    ```markdown
+        git init
+        git add .
+        git commmint -m 'init'
+
         将本地的仓库关联到github上
         git remote add origin https://github.com/luogeger/...
         
@@ -241,11 +219,8 @@
 		git reset HEAD XXX/XXX/XXX.html 就是对某个文件进行撤销了
 	  - 撤销 commit
 		git reset HEAD
+
 # 6.Git网上操作
-   - gitHub、gitLab和国内的git网站
-     - 这些托管网站就相当于 百度云盘、360云盘 只不过这里上传的是源代码而不是其他东西
-     - gitHub大部分收费  [官网地址](https://github.com)
-     - gitLab大部分免费 [官网地址](https://gitlab.com)
    - git clone
      - 命令:'git clone [仓储地址]'
      - 会把指定仓储的整个下载来
