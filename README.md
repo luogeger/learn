@@ -31,8 +31,9 @@
     - 4.tab: 
     
 - chrome
-    - Octotree
-    - mark
+	- Octotree  git树结构
+	- JSON viewer
+	- Markdown Reader
 ## Node
 
 - 什么是Node
