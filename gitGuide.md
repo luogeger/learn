@@ -269,4 +269,4 @@
 	- 查看隐藏分支
 	 git branch -a
 	 
-	 
+stash 之后写的
