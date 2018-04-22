@@ -9,7 +9,7 @@
 	- 1.在nodejs中同级目录下创建一个临时文件夹 t
 	- 2.打开命令行窗口，进入nodejs目录下
 		输入命令：C:\Windows\System32\Robocopy.exe /MIR t node_module
-    - 3.硬件检车 cmd => dxdiag
+- 3.硬件检测 cmd => dxdiag
     
 ## tools
 - webstorm
