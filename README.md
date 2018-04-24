@@ -34,6 +34,7 @@
 	- Octotree  git树结构
 	- JSON viewer
 	- Markdown Reader
+	- Pixlr Editor：在线版Photoshop
 ## Node
 
 - 什么是Node
