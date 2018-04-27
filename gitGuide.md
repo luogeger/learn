@@ -256,11 +256,8 @@
 	- 删除远端分支
 	 - git push origin --delete 需要删除的分支，那么其他人如果需要更新分支 需要 git fetch -p
 - git 补充知识
-	- 保存当前的工作现场
+	- 保存当前的工作现场. (https://zhuanlan.zhihu.com/p/28608106)[https://zhuanlan.zhihu.com/p/28608106]
 	- 使用git stash保存当前的工作现场，那么就可以切换到其他分支进行工作，或者在当前分支上完成其他紧急的工作，比如修订一个bug测试提交。
-	- 1 在通过git add 提交完代码到缓存区以后 输入git stash 保存现场，完成以后通过创建其他分支或者跳转其他分支解决对应的工作
-	- 2 解决完对应的工作后跳转到之前的工作分支中在通过 git stash pop 还原现场
-	- 查看隐藏分支
-	 git branch -a
+	- 查看隐藏分支 git branch -a
 	 
 	 
