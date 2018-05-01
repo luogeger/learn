@@ -37,7 +37,7 @@
 	- Pixlr Editor：在线版Photoshop
 	
 - skill
-	- Chrome变成一个在线IDE, 只要把github地址改成https://stackblitz.com/github开头就可以了。
+	- Chrome变成一个在线IDE, 只要把github地址改成 https://stackblitz.com/github 开头就可以了。
 		- https://github.com/gothinkster/angular-realworld-example-app
 		- https://stackblitz.com/github/gothinkster/angular-realworld-example-app
 ## Node
