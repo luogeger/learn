@@ -41,6 +41,9 @@
 	- Chrome变成一个在线IDE, 只要把github地址改成 https://stackblitz.com/github 开头就可以了。
 		- https://github.com/gothinkster/angular-realworld-example-app
 		- https://stackblitz.com/github/gothinkster/angular-realworld-example-app
+		
+	- cortana 搜索应用 => PowerShell
+		- Get-AppXPackage -Name Microsoft.Windows.Cortana | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 ## Node
 
 - 什么是Node
