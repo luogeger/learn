@@ -44,6 +44,10 @@
 		
 	- cortana 搜索应用 => PowerShell
 		- Get-AppXPackage -Name Microsoft.Windows.Cortana | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+		
+        - ScreenToGif.exe  录制屏幕.gif
+	 
+	 
 ## Node
 
 - 什么是Node
