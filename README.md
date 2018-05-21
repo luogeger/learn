@@ -52,11 +52,6 @@
 
 - 什么是Node
   + Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。[官网](https://www.nodojs.org)
-
-- node 只解析ES,像aler()之类的就不能使用了 
-  + 加上谷歌V8对js的解析速度大大提高
-  + 提供了一些系统级API,比如对文件的操作
-  + 其实就是一个js运行环境
   
 - 安装Node
   + 不要安装在中文路径
