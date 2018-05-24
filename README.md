@@ -79,11 +79,6 @@
   + npm install -g bower 全局安装bower
   + npm install jquery --save-dev 本地安装jquery并记录到package.json中
   + npm uninstall 包名 删除包 如果是全局安装就加上-g
-  
-
-	
-
-
 
 ## block-chain
   - http://static.runoob.com/download/blockchain.pdf
