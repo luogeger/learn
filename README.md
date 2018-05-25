@@ -47,6 +47,8 @@
 		
  - sortware
  	- ScreenToGif.exe  录制屏幕, 张脑湿，回复gif
+	
+ - Xnip 方便好用的滚动截图工具。
 	 
 ## Node
 
