@@ -1,15 +1,21 @@
 # Learn
 [Me](imgs/mmexport1451125082410.jpg)
 
-- 1.测试硬盘读写速度
-	- 管理员身份打开命令行``winsat disk -drive c``
+- PC
+	- 1.测试硬盘读写速度
+		- 管理员身份打开命令行``winsat disk -drive c``
 
-- 2.删除嵌套很深的文件夹
-	- 假如需要删除的文件夹是nodejs\node_modules\node_modules...
-	- 1.在nodejs中同级目录下创建一个临时文件夹 t
-	- 2.打开命令行窗口，进入nodejs目录下
+	- 2.删除嵌套很深的文件夹
+		- 假如需要删除的文件夹是nodejs\node_modules\node_modules...
+		- 1.在nodejs中同级目录下创建一个临时文件夹 t
+		- 2.打开命令行窗口，进入nodejs目录下
 		输入命令：C:\Windows\System32\Robocopy.exe /MIR t node_module
-- 3.硬件检测 cmd => dxdiag
+		
+	- 3.硬件检测 cmd => dxdiag
+	
+	- 4.用户账户修改 cmd => netplwiz
+		- cmd => regedit
+			- 计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
     
 ## tools
 - webstorm
@@ -45,10 +51,12 @@
 	- cortana 搜索应用 => PowerShell
 		- Get-AppXPackage -Name Microsoft.Windows.Cortana | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 		
- - sortware
+	
+		
+- sortware
  	- ScreenToGif.exe  录制屏幕, 张脑湿，回复gif
 	
- - Xnip 方便好用的滚动截图工具。
+	- Xnip 方便好用的滚动截图工具。
 	 
 ## Node
 
