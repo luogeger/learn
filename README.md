@@ -23,8 +23,9 @@
     	– 激活 http://idea.imsxm.com 
         - [搭建服务器](http://blog.csdn.net/larennani/article/details/71447150?locationNum=9&fps=1)
         - [help](https://www.jetbrains.com/help/webstorm/meet-webstorm.html)
+        - 主题颜色：config/color
         - plugin
-		- CodeGlance 
+		    - CodeGlance 
 
     - 2.快捷键：
         - 函数和变量声明的地方、 ``Ctrl + B``
