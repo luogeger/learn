@@ -26,6 +26,7 @@
         - 主题颜色：config/color
         - plugin
 		    - CodeGlance 
+		    - key promoter 快捷键提示
 
     - 2.快捷键：
         - 函数和变量声明的地方、 ``Ctrl + B``
