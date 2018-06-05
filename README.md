@@ -39,10 +39,11 @@
     - 4.tab: 
     
 - chrome
-	- Octotree  git树结构
+	- Octotree ：git树结构
 	- JSON viewer
 	- Markdown Reader
 	- Pixlr Editor：在线版Photoshop
+	-  Adblock Plus : 去广告插件
 	
 - skill
 	- Chrome变成一个在线IDE, 只要把github地址改成 https://stackblitz.com/github 开头就可以了。
