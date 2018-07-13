@@ -54,7 +54,8 @@
 	- cortana 搜索应用 => PowerShell
 		- Get-AppXPackage -Name Microsoft.Windows.Cortana | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 		
-	
+
+	- Deluminate 这是一个 Chrome 浏览器的插件，可以让任何网站变成 "夜晚模式"。
 		
 - sortware
  	- ScreenToGif.exe  录制屏幕, 张脑湿，回复gif
