@@ -26,6 +26,7 @@
         - 主题颜色：config/color
         - plugin
 		    - CodeGlance 
+		    - key promoter 快捷键提示
 
     - 2.快捷键：
         - 函数和变量声明的地方、 ``Ctrl + B``
@@ -37,11 +38,13 @@
     - 3.keyboard: 
     - 4.tab: 
     
+    
 - chrome
-	- Octotree  git树结构
+	- Octotree ：git树结构
 	- JSON viewer
 	- Markdown Reader
 	- Pixlr Editor：在线版Photoshop
+	-  Adblock Plus : 去广告插件
 	
 - skill
 	- Chrome变成一个在线IDE, 只要把github地址改成 https://stackblitz.com/github 开头就可以了。
@@ -51,7 +54,8 @@
 	- cortana 搜索应用 => PowerShell
 		- Get-AppXPackage -Name Microsoft.Windows.Cortana | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 		
-	
+
+	- Deluminate 这是一个 Chrome 浏览器的插件，可以让任何网站变成 "夜晚模式"。
 		
 - sortware
  	- ScreenToGif.exe  录制屏幕, 张脑湿，回复gif
@@ -102,6 +106,7 @@
 |  a    |  s    |   d   |
 |    A  |    S  |    D  |
 |这里|其实是|4行|
+
 
 
 
