@@ -1,0 +1,62 @@
+<scheme name="luogegerLight" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.25" />
+  <metaInfo>
+    <property name="created">2018-07-24T16:19:04</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2017.1.2.0.0</property>
+    <property name="modified">2018-07-24T16:19:10</property>
+    <property name="originalScheme">Default copy</property>
+  </metaInfo>
+  <option name="EDITOR_FONT_SIZE" value="20" />
+  <option name="CONSOLE_FONT_NAME" value="Consolas" />
+  <option name="CONSOLE_FONT_SIZE" value="18" />
+  <option name="EDITOR_FONT_NAME" value="Consolas" />
+  <colors>
+    <option name="CARET_ROW_COLOR" value="dcdcf6" />
+  </colors>
+  <attributes>
+    <option name="HTML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="bf1186" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="HTML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="288080" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="HTML_CODE">
+      <value>
+        <option name="FOREGROUND" value="222222" />
+        <option name="BACKGROUND" value="f8f8f8" />
+      </value>
+    </option>
+    <option name="HTML_ENTITY_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="288080" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="HTML_TAG">
+      <value />
+    </option>
+    <option name="HTML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="3d91ff" />
+      </value>
+    </option>
+    <option name="JS.LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+      </value>
+    </option>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="222222" />
+        <option name="BACKGROUND" value="f8f8f8" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
