@@ -23,7 +23,7 @@
     	– 激活 http://idea.imsxm.com 
         - [搭建服务器](http://blog.csdn.net/larennani/article/details/71447150?locationNum=9&fps=1)
         - [help](https://www.jetbrains.com/help/webstorm/meet-webstorm.html)
-        - 主题颜色：config/color
+        - 主题颜色：config/color (gutter, text, FFFBE8)
         - plugin
 		    - CodeGlance 
 		    - key promoter 快捷键提示
