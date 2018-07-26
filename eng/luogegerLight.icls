@@ -4,39 +4,48 @@
     <property name="created">2018-07-24T16:19:04</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2018-07-24T16:19:10</property>
+    <property name="modified">2018-07-26T17:26:56</property>
     <property name="originalScheme">Default copy</property>
   </metaInfo>
-  <option name="EDITOR_FONT_SIZE" value="20" />
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Fira Code" />
+    <option name="EDITOR_FONT_SIZE" value="20" />
+  </font>
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Lucida Sans Typewriter" />
+    <option name="EDITOR_FONT_SIZE" value="20" />
+  </font>
   <option name="CONSOLE_FONT_NAME" value="Consolas" />
   <option name="CONSOLE_FONT_SIZE" value="18" />
-  <option name="EDITOR_FONT_NAME" value="Consolas" />
   <colors>
     <option name="CARET_ROW_COLOR" value="dcdcf6" />
+    <option name="GUTTER_BACKGROUND" value="f8f8f8" />
   </colors>
   <attributes>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="bf1186" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="288080" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="HTML_CODE">
       <value>
         <option name="FOREGROUND" value="222222" />
-        <option name="BACKGROUND" value="f8f8f8" />
+      </value>
+    </option>
+    <option name="HTML_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="288080" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HTML_TAG">
@@ -47,9 +56,142 @@
         <option name="FOREGROUND" value="3d91ff" />
       </value>
     </option>
+    <option name="JS.BADCHARACTER">
+      <value>
+        <option name="BACKGROUND" value="ffcccc" />
+      </value>
+    </option>
+    <option name="JS.BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JS.BRACES">
+      <value />
+    </option>
+    <option name="JS.BRACKETS">
+      <value />
+    </option>
+    <option name="JS.CLASS">
+      <value>
+        <option name="FOREGROUND" value="0" />
+      </value>
+    </option>
+    <option name="JS.COMMA">
+      <value />
+    </option>
+    <option name="JS.DOC_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JS.DOC_MARKUP">
+      <value>
+        <option name="BACKGROUND" value="e2ffe2" />
+      </value>
+    </option>
+    <option name="JS.DOC_TAG">
+      <value>
+        <option name="EFFECT_COLOR" value="808080" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JS.DOT">
+      <value />
+    </option>
+    <option name="JS.FUNCTION_ARROW">
+      <value />
+    </option>
+    <option name="JS.GLOBAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="ef2b56" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="ef2b56" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JS.INSTANCE_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="c43100" />
+      </value>
+    </option>
+    <option name="JS.INSTANCE_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="439900" />
+      </value>
+    </option>
+    <option name="JS.INVALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="8000" />
+        <option name="BACKGROUND" value="ffcccc" />
+      </value>
+    </option>
+    <option name="JS.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="80" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JS.LABEL">
+      <value>
+        <option name="EFFECT_COLOR" value="808080" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="JS.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="808080" />
+      </value>
+    </option>
+    <option name="JS.LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="bf1186" />
+      </value>
+    </option>
+    <option name="JS.MODULE_NAME">
+      <value>
+        <option name="FOREGROUND" value="0" />
+      </value>
+    </option>
+    <option name="JS.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ff" />
+      </value>
+    </option>
+    <option name="JS.OPERATION_SIGN">
+      <value />
+    </option>
+    <option name="JS.PARENTHS">
+      <value />
+    </option>
+    <option name="JS.SEMICOLON">
+      <value />
+    </option>
+    <option name="JS.STATIC_MEMBER_FUNCTION">
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JS.STATIC_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="660e7a" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JS.STRING">
+      <value>
+        <option name="FOREGROUND" value="3d91ff" />
+      </value>
+    </option>
+    <option name="JS.VALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="80" />
       </value>
     </option>
     <option name="TEXT">
