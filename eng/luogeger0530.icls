@@ -4,7 +4,7 @@
     <property name="created">2018-05-30T17:37:09</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2018-05-30T17:37:35</property>
+    <property name="modified">2018-07-31T10:13:54</property>
     <property name="originalScheme">luogeger0510 copy</property>
   </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="22" />
@@ -16,7 +16,7 @@
     <option name="EDITOR_FONT_NAME" value="Consolas" />
     <option name="EDITOR_FONT_SIZE" value="18" />
   </console-font>
-  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+  <option name="EDITOR_FONT_NAME" value="Fira Code Medium" />
   <colors>
     <option name="GUTTER_BACKGROUND" value="242424" />
   </colors>
@@ -99,6 +99,12 @@
         <option name="FOREGROUND" value="ef2b56" />
       </value>
     </option>
+    <option name="JS.BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="JS.CLASS">
       <value>
         <option name="FOREGROUND" value="a9b7c6" />
@@ -134,7 +140,13 @@
     <option name="JS.KEYWORD">
       <value>
         <option name="FOREGROUND" value="5394ec" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JS.LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE">
