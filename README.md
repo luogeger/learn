@@ -27,11 +27,7 @@
         - plugin
 		    - CodeGlance 
 		    - key promoter 快捷键提示
-
-    - 2.快捷键：
-        - 函数和变量声明的地方、 ``Ctrl + B``
-
-
+		    
 - vscode
     - 1.ctrl + F1 : view in browser; "command": "extension.viewInBrowser",
     - 2.自动保存: "files.autoSave": "afterDelay",
@@ -61,6 +57,8 @@
  	- ScreenToGif.exe  录制屏幕, 张脑湿，回复gif
 	
 	- Xnip 方便好用的滚动截图工具。
+	
+	- Wallpaper Engine 桌面壁纸
 	 
 ## Node
 
