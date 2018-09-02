@@ -1,6 +1,6 @@
 # Learn
 [Me](imgs/mmexport1451125082410.jpg)
-
+https://www.youtube.com/c/PrimitiveTechnology
 - PC
 	- 1.测试硬盘读写速度
 		- 管理员身份打开命令行``winsat disk -drive c``
