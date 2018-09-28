@@ -38,7 +38,6 @@ https://www.youtube.com/c/PrimitiveTechnology
     
 - chrome
 	- C:\Users\luogeger\AppData\Local\Google\Chrome\User Data\Default\Extensions
-	- chrome://flags/#extension-content-verification
 	- Octotree ：git树结构
 	- JSON viewer
 	- Markdown Reader
