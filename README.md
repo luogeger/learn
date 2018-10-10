@@ -61,6 +61,38 @@ https://www.youtube.com/c/PrimitiveTechnology
 	- Xnip 方便好用的滚动截图工具。
 	
 	- Wallpaper Engine 桌面壁纸
+	 
+## Node
+
+- 什么是Node
+  + Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。[官网](https://www.nodojs.org)
+  
+- 安装Node
+  + 不要安装在中文路径
+  + nvm Node Version Manager（版本管理）
+  + nrm Node Registry Manager（路径管理）
+  + npm Node Package Manager （依赖包管理）
+    www.npmjs.com npm下载地址
+	
+- 常用nvm命令
+  + nvm ls 查看node下载的版本
+  + nvm install 4.6.0 下载名为4.6.0的版本
+  + nvm use 4.6.0 切换4.6.0版本
+  
+  
+- 常用nrm 命令
+  - ``nrm下载``: ``npm install -g nrm``
+  - ``检查``: ``nrm ls``
+  - ``切换到cnpm下载源``: ``nrm use cnpm ``
+    - **注意：** 有时候npm的速度很慢，可以考虑cnpm, 输入下面命令行
+    - ``npm install -g cnpm --registry=https://registry.npm.taobao.org``
+    -  输入命令：``cnpm``检查是否安装好，以后用到npm的地方用cnpm代替。
+  
+- 常用的npm命令
+  + npm init 初始化一个	package.json  文件，如果加上-y就不需要在敲回车了
+  + npm install -g bower 全局安装bower
+  + npm install jquery --save-dev 本地安装jquery并记录到package.json中
+  + npm uninstall 包名 删除包 如果是全局安装就加上-g
 
 ## block-chain
   - http://static.runoob.com/download/blockchain.pdf
