@@ -1,10 +1,3 @@
-<div class="header" style="width: 100%; overflow: hidden; border-bottom:2px solid #eeeeee;">
-    <div class="left" style="width: 80%; float: left;">
-    </div>
-    <div class="right" style="width: 20%; float: right;">
-        <img src="imgs/ID_Photo.jpg" alt="ID_Photo" style="width:125px; height:180px;  float:right;">
-    </div>
-</div>
 
 # Learn
 
