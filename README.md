@@ -16,7 +16,9 @@ https://www.youtube.com/c/PrimitiveTechnology
 	
 	- 4.用户账户修改 cmd => netplwiz
 		- cmd => regedit
-			- 计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
+			- `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList`
+	- 5. 系统字体修改
+		- `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts`
     
 ## tools
 - webstorm
