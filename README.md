@@ -1,23 +1,21 @@
 
 # Learn
 
-https://www.youtube.com/c/PrimitiveTechnology
 - PC
 	- 1.测试硬盘读写速度
 		- 管理员身份打开命令行``winsat disk -drive c``
 
 	- 2.删除嵌套很深的文件夹
-		- 假如需要删除的文件夹是nodejs\node_modules\node_modules...
+		- 假如需要删除的文件夹是`nodejs\node_modules\node_modules...`
 		- 1.在nodejs中同级目录下创建一个临时文件夹 t
 		- 2.打开命令行窗口，进入nodejs目录下
-		输入命令：C:\Windows\System32\Robocopy.exe /MIR t node_module
+		输入命令：`C:\Windows\System32\Robocopy.exe /MIR t node_module`
 		
-	- 3.硬件检测 cmd => dxdiag
+	- 3.硬件检测 `dxdiag`  `system`
 	
-	- 4.用户账户修改 cmd => netplwiz
-		- cmd => regedit
-			- `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList`
-	- 5. 系统字体修改
+	- 4.用户账户修改 `regedit` `netplwiz`
+		- `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList`
+	- 5.系统字体修改
 		- `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts`
     
 ## tools
