@@ -61,6 +61,8 @@
 	- Xnip 方便好用的滚动截图工具。
 	
 	- Wallpaper Engine 桌面壁纸
+	
+	- CCleaner 注册表清理工具
 	 
 ## Node
 
