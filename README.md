@@ -1,4 +1,10 @@
-
+<div class="header" style="width: 100%; overflow: hidden; border-bottom:2px solid #eeeeee;">
+    <div class="left" style="width: 80%; heght: 300px;float: left;">
+    </div>
+    <div class="right" style="width: 19%; heght: 300px; float: right; backgorund: #0094ff;">
+        
+    </div>
+</div>
 # Learn
 
 - PC
