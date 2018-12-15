@@ -24,6 +24,9 @@
         - `git pull origin next:dev`
     - 如果是和当前分支合并，冒号后面的部分可以省略
         - `git pull origin next`
+            - 相当于以下的两个步骤
+            -  `git fetch origin` (获取远端的分支)
+		    -  `git merge origin/next` （合并远端分支)
     - 默认还有远程跟踪分支的说法...        
 
 - **push** 推送
@@ -116,8 +119,6 @@
     - `#`号表示注释
 
 #### 补充
-- 撤销
-
 - 如果我对某文件进行了修改，但我不想要push到远程仓库，同时我又想获取最新的修改记录
     - `git stash save`
     - `git pull --rebase`
@@ -160,15 +161,8 @@
     - `ssh-keygen -t rsa` 创建密钥
 
 
-- tip: 查看暂存区和现在的内容的区别
-
 - tip: 已经存在版本库了，但是要批量取消版本跟踪，但是文件不删除，怎么操作   
 
-- 获取仓库内容
-	- `git pull 地址/origin master`  可以通过https地址获取仓库数据，但是这样做太麻烦了，使用origin相当于替换了之前的地址用法都是一样的。
-		-  其实这样使用包含了两个操作
-		-  `git fetch origin` (获取远端的分支)
-		-  `git merge origin/master` （合并远端分支）
 
 
 	
