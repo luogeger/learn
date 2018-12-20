@@ -84,7 +84,28 @@
 
     - 当`mywork`分支更新之后，它会只想这些新创建的提交(commit), 而那些老的提交会被丢弃。如果运行垃圾收集命令(`pruning garbage collection`)，这些丢弃的提交就会被删除。        
 
-    
+    - ```xml
+        git rebase -i HEAD~3
+
+        pick = use commit
+        reword = user commit, but edit the commit message
+        edit = use commit, but stop for amending
+        squash = use commit, but meld into previous commit
+        fixup = like "squash", but discard this commit's message
+        exec = run command (the rest of the line) using shell
+        drop = remove commit
+
+        git rebase (--continue | --abort | --skip)
+
+        # error: cannot 'fixup' without a previous commit
+    ```
+    - 删除`commit`
+
+    - 合并`commit`
+
+    - 从指定基点创建分支
+
+    - 合并`dev`的部分代码到`master`
     
     
 
