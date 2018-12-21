@@ -25,15 +25,13 @@
 		- `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts`
     
 ## tools
-- webstorm
-    - 1.webstorm 
-    	– 激活 http://idea.imsxm.com 
-        - [搭建服务器](http://blog.csdn.net/larennani/article/details/71447150?locationNum=9&fps=1)
-        - [help](https://www.jetbrains.com/help/webstorm/meet-webstorm.html)
-        - 主题颜色：config/color (gutter, text, FFFBE8, font: Fira Code)
-        - plugin
-		    - CodeGlance 
-		    - key promoter 快捷键提示
+- webstorm 
+    - [搭建服务器](http://blog.csdn.net/larennani/article/details/71447150?locationNum=9&fps=1)
+    - [help](https://www.jetbrains.com/help/webstorm/meet-webstorm.html)
+    - plugin
+        - CodeGlance    代码地图 
+        - key promoter  快捷键提示
+		- Material Theme UI 图标美化
 		    
 - vscode
     - 1.ctrl + F1 : view in browser; "command": "extension.viewInBrowser",
