@@ -89,3 +89,11 @@
     let arr = [10, 20, 30];
     arr.reduce((a, b) => a + b);// 60
 ```
+
+
+- set map
+- symbol
+- reflect
+- proxy
+- Promise
+- Iterator, for..of
