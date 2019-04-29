@@ -1,4 +1,7 @@
 ![](imgs/git_flow_diagram.png)
+
+- `git rm --cached` 要停止追踪的文件名
+
 ## Git命令
 - **config** 配置个人信息
     - ` git config --list`
