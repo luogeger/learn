@@ -1,8 +1,10 @@
 ![](imgs/git_flow_diagram.png)
 
-- `git rm --cached` 要停止追踪的文件名
+
 
 ## Git命令
+- `git rm --cached` 要停止追踪的文件名
+
 - **config** 配置个人信息
     - ` git config --list`
     - ` git config --global user.name "你的用户名" `
@@ -39,7 +41,7 @@
 - **status** 查看状态
     - `git status ` : 查看当前工作目录的状态，是已经放到暂存区，还是提交到仓库了。
     - `git status -s ` 查看简要的状态信息
-     
+    
 - **log** 查看日志
     - `git log`
     - `git reflog` ：查看操作历史
@@ -101,16 +103,18 @@
         git rebase (--continue | --abort | --skip)
 
         # error: cannot 'fixup' without a previous commit
+        ```
     ```
-    - 删除`commit`
-
-    - 合并`commit`
-
-    - 从指定基点创建分支
-
-    - 合并`dev`的部分代码到`master`
+    其中-i的意思是--interactive
     
-    
+    pick：保留该commit（缩写:p）
+    reword：保留该commit，但我需要修改该commit的注释（缩写:r）
+    edit：保留该commit, 但我要停下来修改该提交(不仅仅修改注释)（缩写:e）
+    squash：将该commit和前一个commit合并（缩写:s）
+    fixup：将该commit和前一个commit合并，但我不要保留该提交的注释信息（缩写:f）
+    exec：执行shell命令（缩写:x）
+    drop：我要丢弃该commit（缩写:d）
+    ```
 
 - **remote** 远端分支
     - `git remote` :可以查看已添加的远程主机
@@ -164,7 +168,7 @@
     # 拉取最新代码，同时会让你merge冲突
     git pull
 ```
-   
+
 - 和远程仓库关联
 ```markdown
     git init
@@ -189,6 +193,6 @@
 
 
 
-	
-	
-	 
+
+​	
+​	 
